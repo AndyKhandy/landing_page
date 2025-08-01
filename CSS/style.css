@@ -13,6 +13,10 @@ body {
     height: 200vh;
 }
 
+section {
+    min-height: 400px;
+}
+
 /*Color Different Sections */
 
 .hero, footer {
@@ -175,3 +179,49 @@ ul {
     font-weight: bolder;
     font-size: 20px;
 }
+
+/* Action section */
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    background-color: #455793;
+    padding: 60px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.container .text h2 {
+    font-weight: bolder;
+    font-size: 40p;
+    margin-bottom: 5px;
+}
+
+.container .text p {
+    font-weight:200;
+    font-size: 20px;
+}
+
+.container a {
+    border: 2px solid white;
+    padding: 5px;
+    flex-shrink: 0;
+}
+
+.container a:hover {
+    background-color: #455793;
+    color: white;
+    transform:scale(1.1);
+    border: 2px solid white;
+}
+
+
