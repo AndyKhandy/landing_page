@@ -100,7 +100,6 @@ ul {
     width: 45%;
     font-size: 18px;
     color: #E5E7EB;
-   
     padding: 20px;
 }
 
@@ -120,4 +119,35 @@ ul {
     border: 1px solid #455793;
     border-radius: 5px;
     color: white;
+}
+
+/*Pictures Section */
+
+.pictures {
+    text-align: center;
+    padding: 20px;
+}
+
+.pictures h1 {
+    font-size: 36px;
+    color: #455793;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.pictures .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.item img {
+    border: 3px solid #455793;
+}
+
+.item {
+    width: 204px;
+    font-weight: bold;
 }
