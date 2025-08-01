@@ -13,6 +13,8 @@ body {
     height: 200vh;
 }
 
+/*Color Different Sections */
+
 .hero, footer {
     color: white;
     background-color: #1F2937;
@@ -23,6 +25,12 @@ body {
     background-color: #E5E7EB;
 }
 
+/* Hero Section */
+
+.hero .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
 .hero .logo img {
     width: 25px;
     height: auto;
@@ -32,4 +40,70 @@ body {
 .hero .main img {
     width: 250px;
     height: auto;
+    border: 3px solid white;
+}
+
+.hero {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;;
+    gap: 70px;
+    padding: 10px;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+.main .text {
+    width: 45%;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main .text h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.main .text h1, .main .text p {
+    margin-bottom: 10px;
+}
+
+.hero button {
+    padding: 5px 10px;
+    background-color: #455793;
+    border: 1px solid #455793;
+    border-radius: 5px;
+    color: white;
 }
