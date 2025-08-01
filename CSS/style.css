@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hero {
+    color: white;
+    background-color: #1F2937;
+    width: 100%;
+}
