@@ -4,8 +4,32 @@
     box-sizing: border-box;
 }
 
-.hero {
+img {
+    width: 200px;
+    height: 250px;
+}
+
+body {
+    height: 200vh;
+}
+
+.hero, footer {
     color: white;
     background-color: #1F2937;
     width: 100%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.hero .logo img {
+    width: 25px;
+    height: auto;
+}
+
+
+.hero .main img {
+    width: 250px;
+    height: auto;
 }
