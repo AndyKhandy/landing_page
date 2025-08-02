@@ -95,8 +95,8 @@ ul {
 
 .main {
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
+    justify-content: center;
+    gap: 100px;
     width: 80%;
     padding: 20x;
     margin: 20px auto;
@@ -120,8 +120,8 @@ ul {
     margin-bottom: 20px;
 }
 
-.hero button {
-    padding: 7px 14px;
+.hero button {  
+    padding: 4px 17px;
     background-color: #455793;
     border: 1px solid #455793;
     border-radius: 5px;
