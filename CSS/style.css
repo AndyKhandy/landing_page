@@ -17,6 +17,7 @@ section {
     min-height: 400px;
 }
 
+
 /*Color Different Sections */
 
 .hero, footer {
@@ -108,11 +109,37 @@ ul {
     display: none;
 }
 
-.darkMode img:first-child{
+.darkMode .hero, .darkMode footer {
+    background-color: #121e2f;
+}
+
+.darkMode .pictures, .darkMode .action {
+    background-color: rgb(33, 30, 30);
+}
+
+.darkMode .quote {
+    background-color: rgb(28, 26, 26);
+    color: white;
+}
+
+.darkMode .quote p:first-child{
+    color: rgb(134, 183, 226);
+}
+
+.darkMode #changeMode, .darkMode .text button, .darkMode .pictures .item, .darkMode .container {
+    background-color: #2c3454;
+} 
+
+
+.darkMode .pictures h1 {
+    color: white;
+}
+
+.darkMode #changeMode img:first-child{
     display: none;
 }
 
-.darkMode img:last-child{
+.darkMode #changeMode img:last-child{
     display: block;
 }
 
@@ -122,7 +149,7 @@ ul {
     gap: 100px;
     width: 80%;
     padding: 20x;
-    margin: 20px auto;
+    margin: 10px auto 0px auto;
 }
 
 .main .text {
