@@ -37,7 +37,6 @@ section {
     color: #F9FAF8;
     display: flex;
     align-items: center;
-
 }
 
 .hero .logo img {
@@ -274,6 +273,7 @@ ul {
 }
 
 
+
 .container .text h2 {
     font-weight: bolder;
     font-size: 35px;
@@ -303,7 +303,7 @@ footer {
     align-items: center;
     justify-content: center;
     min-height: 70px;
-    font-size: 20px;
+    font-size: 15px;
     gap: 40px;
 }
 
@@ -317,9 +317,10 @@ footer {
 
 @media only screen and (max-width: 1000px)
 {
-    .pictures .item{
-        width: 275px;
-    }
+     .pictures .item {
+    width: 300px;
+    font-size: 25px;
+}
 
 }
 
@@ -360,5 +361,26 @@ footer {
     .header .links ul {
         gap: 10px;
     }
+
     
+}
+
+@media screen and (max-width: 500px)
+{
+    .hero .logo{
+        font-size: 18px;
+    }
+
+    .container .text{
+        width: 100%;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .pictures .item {
+    width: 300px;
+    font-size: 25px;
+}
 }
