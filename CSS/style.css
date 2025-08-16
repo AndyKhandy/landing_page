@@ -21,7 +21,7 @@ section {
 
 .hero, footer {
     color: white;
-    background-color: #1F2937;
+    background-color: #34445b;
     width: 100%;
 }
 
@@ -75,7 +75,7 @@ a:hover {
     border-bottom: 1px solid white;
 }
 
-li:hover {
+li:hover, #changeMode:hover {
     transform: translateY(5%);
 }
 
@@ -83,6 +83,7 @@ ul {
     width: 100%;
     list-style-type: none;
     display: flex;
+    align-items: center;
     gap: 40px;
 
 }
@@ -90,7 +91,29 @@ ul {
 .logo {
     display: inline-flex;
     align-items: center;
+}
 
+#changeMode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#changeMode img {
+    width: 20px;
+    height: 20px;
+}
+
+#changeMode img:last-child{
+    display: none;
+}
+
+.darkMode img:first-child{
+    display: none;
+}
+
+.darkMode img:last-child{
+    display: block;
 }
 
 .main {
@@ -159,7 +182,7 @@ ul {
 .pictures .item {
     color: white;
     padding: 10px;
-    background-color: #455793;
+    background-color: #5e71ae;
     width: 205px;
     font-weight: bold;
     transition: 1s ease;
@@ -204,7 +227,7 @@ ul {
 
 .container{
     width: 80%;
-    background-color: #455793;
+    background-color: #7e9bef;
     padding: 60px;
     color: white;
     border-radius: 10px;
@@ -232,7 +255,6 @@ ul {
 }
 
 .container a:hover {
-    background-color: #455793;
     color: white;
     transform:scale(1.1);
     border: 2px solid white;
