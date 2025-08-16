@@ -49,9 +49,10 @@ section {
 
 .hero .main img {
     width: 250px;
-    height: auto;
+    height: 275px;
     border: 3px solid white;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .hero {
@@ -149,7 +150,7 @@ ul {
     gap: 100px;
     width: 80%;
     padding: 20x;
-    margin: 10px auto 0px auto;
+    margin: 0px auto;
 }
 
 .main .text {
@@ -157,6 +158,8 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     padding: 20px;
+    margin-top: -10px;
+    margin-bottom: 30px;  
 }
 
 .main .text h1 {
@@ -259,15 +262,15 @@ ul {
     color: white;
     border-radius: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 
 .container .text h2 {
     font-weight: bolder;
-    font-size: 40p;
-    margin-bottom: 5px;
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
 .container .text p {
@@ -298,5 +301,39 @@ footer {
 }
 
 
+@media screen and (max-width: 1200px)
+{
+    .container .text {
+        width: 330px;
+    }
+}
 
+@media only screen and (max-width: 1000px)
+{
+    .pictures .item{
+        width: 300px;
+    }
 
+    .container a {
+    border: 2px solid white;
+    padding: 5px;
+    flex-shrink: 1;
+}
+}
+
+@media screen and (max-width: 750px)
+{
+    .pictures .item{
+        width: 205px;
+    }
+
+    .container .text h2 {
+        font-size: 25px;
+    }
+
+    .container .text p {
+        font-size: 15px;
+    }
+
+    
+}
