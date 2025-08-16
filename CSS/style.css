@@ -101,9 +101,16 @@ ul {
     justify-content: center;
 }
 
-#changeMode img {
+#changeMode img{
     width: 20px;
     height: 20px;
+}
+
+#menu {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
 }
 
 #changeMode img:last-child{
@@ -311,29 +318,47 @@ footer {
 @media only screen and (max-width: 1000px)
 {
     .pictures .item{
-        width: 300px;
+        width: 275px;
     }
 
-    .container a {
-    border: 2px solid white;
-    padding: 5px;
-    flex-shrink: 1;
-}
 }
 
-@media screen and (max-width: 750px)
+@media screen and (max-width: 800px)
 {
     .pictures .item{
         width: 205px;
     }
 
-    .container .text h2 {
-        font-size: 25px;
+    .container, .main {
+        flex-direction: column;
     }
 
-    .container .text p {
-        font-size: 15px;
+    .main {
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
     }
 
+    .main .text {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .header .links ul li {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .header .links ul {
+        gap: 10px;
+    }
     
 }
