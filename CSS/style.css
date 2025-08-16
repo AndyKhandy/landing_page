@@ -116,7 +116,7 @@ ul {
     display: none;
 }
 
-.darkMode .hero, .darkMode footer, .darkMode .container {
+.darkMode .hero, .darkMode footer {
     background-color: #121e2f;
 }
 
@@ -133,7 +133,7 @@ ul {
     color: rgb(134, 183, 226);
 }
 
-.darkMode #changeMode, .darkMode .text button, .darkMode .pictures .item {
+.darkMode #changeMode, .darkMode .text button, .darkMode .pictures .item, .darkMode .container {
     background-color: #2c3454;
 } 
 
