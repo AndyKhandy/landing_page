@@ -76,7 +76,7 @@ a:hover {
     border-bottom: 1px solid white;
 }
 
-li:hover, #changeMode:hover {
+li:hover {
     transform: translateY(5%);
 }
 
@@ -98,6 +98,16 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:#34445b;
+    width: 30px;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: none;
+}
+
+#changeMode:hover, .darkMode #changeMode:hover{
+    background-color: #6b7481
 }
 
 #changeMode img{
@@ -116,9 +126,10 @@ ul {
     display: none;
 }
 
-.darkMode .hero, .darkMode footer {
+.darkMode .hero, .darkMode footer, .darkMode #changeMode {
     background-color: #121e2f;
 }
+
 
 .darkMode .pictures, .darkMode .action {
     background-color: rgb(33, 30, 30);
@@ -133,7 +144,7 @@ ul {
     color: rgb(134, 183, 226);
 }
 
-.darkMode #changeMode, .darkMode .text button, .darkMode .pictures .item, .darkMode .container {
+ .darkMode .text button, .darkMode .pictures .item, .darkMode .container {
     background-color: #2c3454;
 } 
 
@@ -180,7 +191,7 @@ ul {
     margin-bottom: 20px;
 }
 
-.hero button {  
+.main button {  
     padding: 4px 17px;
     background-color: #455793;
     border: 1px solid #455793;
