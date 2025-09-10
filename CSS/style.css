@@ -70,6 +70,7 @@ a{
     color: white;
     transition: 200ms ease;
     font-size: 20px;
+    padding-bottom: 5px;
 }
 
 a:hover {
