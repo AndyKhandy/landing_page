@@ -73,13 +73,6 @@ section {
 
 /* Hero Section */
 
-.header{
-    background-color: #34445b;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    margin-bottom: 100px;
-}
 
 .header .logo {
     font-size: 24px;
@@ -105,7 +98,7 @@ section {
 
 .hero {
     font-family:'Times New Roman', Times, serif;
-    margin-top: 80px;
+    display: flex;
 }
 
 .header {
@@ -113,6 +106,10 @@ section {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+    background-color: #436189ad;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 a{
@@ -231,7 +228,7 @@ ul {
     gap: 100px;
     width: 80%;
     padding: 20x;
-    margin: 0px auto;
+    margin: 80px auto;
 }
 
 .main .text {
