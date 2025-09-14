@@ -16,5 +16,7 @@ function changeSideBar()
     sideBar.classList.toggle("active");
 }
 
+sideBar.addEventListener("click", changeSideBar);
+
 openSide.addEventListener("click", changeSideBar)
 closeSide.addEventListener("click", changeSideBar);
