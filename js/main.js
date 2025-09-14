@@ -17,6 +17,5 @@ function changeSideBar()
 }
 
 sideBar.addEventListener("click", changeSideBar);
-
-openSide.addEventListener("click", changeSideBar)
+openSide.addEventListener("click", changeSideBar);
 closeSide.addEventListener("click", changeSideBar);

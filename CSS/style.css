@@ -32,8 +32,9 @@ section {
     top: 0;
     right: 0;
     height: 100%;
-    width: 80%;
+    width: 85%;
     display: none;
+    z-index: 1000
 }
 
 .sidebar ul {
@@ -72,14 +73,22 @@ section {
 
 /* Hero Section */
 
-.hero .logo {
+.header{
+    background-color: #34445b;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.header .logo {
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
     align-items: center;
 }
 
-.hero .logo img {
+.header .logo img {
     width: 25px;
     height: auto;
     margin-right: 5px;
@@ -96,6 +105,7 @@ section {
 
 .hero {
     font-family:'Times New Roman', Times, serif;
+    margin-top: 80px;
 }
 
 .header {
@@ -113,11 +123,12 @@ a{
     padding-bottom: 5px;
 }
 
-header a:hover {
+
+.header .links a:hover {
     border-bottom: 1px solid white;
 }
 
-header li:hover {
+.header li:hover {
     transform: translateY(5%);
 }
 
@@ -139,7 +150,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#34445b;
+    background-color: #34445b0a;
     width: 30px;
     height: auto;
     padding: 10px 20px;
@@ -156,15 +167,15 @@ ul {
     height: 20px;
 }
 
-#menu, #close {
+#menu, #exit {
     height: 30px;
     width: 30px;
     cursor: pointer;
     display: none;
 }
 
-.active #close {
-    display:block;
+.active #exit {
+    display: block;
     position: absolute;
     right: 10px;
     top: 10px;
@@ -179,7 +190,7 @@ ul {
     display: none;
 }
 
-.darkMode .hero, .darkMode footer, .darkMode #changeMode {
+.darkMode .hero, .darkMode footer {
     background-color: #121e2f;
 }
 
@@ -252,6 +263,7 @@ ul {
     color: white;
 }
 
+
 /*Pictures Section */
 
 .pictures {
@@ -286,7 +298,7 @@ ul {
     background-color: #5e71ae;
     width: 205px;
     font-weight: bold;
-    transition: 1s ease;
+    transition: 500ms ease;
     font-size: 18px;
 }
 
@@ -441,9 +453,10 @@ footer {
         font-size: 15px;
     }
 
-    .hero .logo{
+    .header .logo{
         font-size: 18px;
     }
+
 }
 
 @media screen and (max-width: 520px)
