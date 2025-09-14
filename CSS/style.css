@@ -79,6 +79,7 @@ section {
     color: #F9FAF8;
     display: flex;
     align-items: center;
+    height: 40px
 }
 
 .header .logo img {
@@ -135,7 +136,6 @@ ul {
     display: flex;
     align-items: center;
     gap: 40px;
-
 }
 
 .logo {
